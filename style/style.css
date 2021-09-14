@@ -184,4 +184,8 @@ header img{
     font-size: 1.8rem;
 }
 
+.about__img img{
+    width: 85vw;
+    margin-bottom: 15px;
+}
  

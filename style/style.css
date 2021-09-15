@@ -188,4 +188,13 @@ header img{
     width: 85vw;
     margin-bottom: 15px;
 }
+
+.phone{
+    font-family: var(--main-font);
+    margin-left: 15px;
+}
+
+.phone p{
+    font-size: 1.6rem;
+}
  

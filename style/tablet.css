@@ -1,0 +1,48 @@
+@media(min-width:426px){
+
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container img{
+        width: 25vw;
+        min-width: 175px;
+    }
+
+    .e{
+        height: auto;
+        width: min-content;
+        padding-bottom: 10px;
+    }
+
+    .e__precio a{
+        padding-left: 1.5vw;
+        padding-right: 1.5vw;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .about{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about__box{
+        width: 45vw;
+        padding: 10px;
+    }
+
+    .about__img img{
+        width: 45vw;
+        padding: 10px;
+    }
+
+
+
+
+
+}

@@ -28,12 +28,16 @@ header img{
 }
 
 .hero{
-    margin-bottom: 5px;
+    height: 45vh;
+    min-height: 250px;
+    background-image: url('/pics/hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 15px;
 }
 
-.hero img{
-    width: 100%;
-}
+
 
 .title{
     display: flex;
@@ -198,3 +202,19 @@ header img{
     font-size: 1.6rem;
 }
  
+.social{
+    margin-top: 15px;
+    height: auto;
+    background-color: blueviolet;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.social img{
+    height: 5vh;
+    max-height: 50px;
+    min-height: 30px;
+    margin: 10px;
+}
